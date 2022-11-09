@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1A72C37291A814F003D6FEA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A72C36291A814F003D6FEA /* main.cpp */; };
+		E1A72C43291A84C7003D6FEA /* nsga2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1A72C41291A84C7003D6FEA /* nsga2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		E1A72C33291A814F003D6FEA /* NSGA-II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSGA-II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A72C36291A814F003D6FEA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E1A72C41291A84C7003D6FEA /* nsga2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nsga2.cpp; sourceTree = "<group>"; };
+		E1A72C42291A84C7003D6FEA /* nsga2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nsga2.hpp; sourceTree = "<group>"; };
+		E1AAB8D0291BA222001403DA /* FNDSable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FNDSable.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				E1A72C36291A814F003D6FEA /* main.cpp */,
+				E1A72C41291A84C7003D6FEA /* nsga2.cpp */,
+				E1A72C42291A84C7003D6FEA /* nsga2.hpp */,
+				E1AAB8D0291BA222001403DA /* FNDSable.hpp */,
 			);
 			path = "NSGA-II";
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A72C37291A814F003D6FEA /* main.cpp in Sources */,
+				E1A72C43291A84C7003D6FEA /* nsga2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
