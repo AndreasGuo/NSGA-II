@@ -29,6 +29,7 @@
 		E1A72C41291A84C7003D6FEA /* nsga2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nsga2.cpp; sourceTree = "<group>"; };
 		E1A72C42291A84C7003D6FEA /* nsga2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nsga2.hpp; sourceTree = "<group>"; };
 		E1AAB8D0291BA222001403DA /* FNDSable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FNDSable.hpp; sourceTree = "<group>"; };
+		E1AAB8D2291BF6CE001403DA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		E1A72C2A291A814E003D6FEA = {
 			isa = PBXGroup;
 			children = (
+				E1AAB8D2291BF6CE001403DA /* README.md */,
 				E1A72C35291A814F003D6FEA /* NSGA-II */,
 				E1A72C34291A814F003D6FEA /* Products */,
 			);
