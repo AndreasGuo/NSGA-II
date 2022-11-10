@@ -8,7 +8,12 @@
 #include "nsga2.hpp"
 #include <algorithm>
 bool NSGA2::isDominance(vector<double> a, vector<double> b){
-    return a<=b;
+    // according to the concept
+    // each cost in a not greater than b
+    // and at lest one cost in a less than b
+    // But in the real world, it dose not render disparage,
+    // <= will produce more rank that (almost) do not effect sort order.
+    return (a<=b)&&!(a==b);
 }
 
 vector<vector<int>> NSGA2::pareto(vector<FNDSable> &individuals){
